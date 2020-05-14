@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edit"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="50dp"
+
+        android:hint="input text"
+
+        android:inputType="text"
+
+        android:padding="5dp" />
+
+
+    <Button
+        android:id="@+id/btn_save"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="50dp"
+
+        android:onClick="mOnClick"
+
+        android:text="save file into External(SDcard)" />
+
+
+    <Button
+        android:id="@+id/btn_load"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="50dp"
+
+        android:onClick="mOnClick"
+
+        android:text="load file from External(SDcard)" />
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="" />
+
+
+</LinearLayout>

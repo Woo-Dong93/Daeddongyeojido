@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RestroomMap</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBLVgtq0tUhLksWipeQ3l99B3KAMK2LsvQ</string>
+</resources>
